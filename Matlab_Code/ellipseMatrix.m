@@ -12,6 +12,7 @@ function ret = ellipseMatrix(y0, x0, a, b, theta, im, c1, c2, pInterp)
 %
 % Function:  modified ellipseMatrixc creation
 % Original Author: Nicolae Cindea
+% Edited for Purpose of SAR Paper: Emre Yavuz
 [ny, nx] = size(im);        % resolution of the image
 imtemp = zeros(ny, nx);     % an empty image 
 list = zeros(ny * nx, 2);
